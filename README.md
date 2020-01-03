@@ -5,41 +5,8 @@
   </a>
 </p>
 <h1 align="center">
-  Frontend Masters: Introduction to Gatsby
+  turbo-sniffle template
 </h1>
-
-In this course, learn to build blazing fast apps and websites with React using Gatsby, a static PWA (Progressive Web App) generator. Over 50% of people will abandon a mobile site if it takes more than 3 seconds to load. Unless you’re willing to give up half of your potential customers, performance is no longer optional on the modern web. Fortunately, there are a lot of tools available to help you build screaming fast websites. Unfortunately, there’s a frighteningly large number of performance considerations, and many of them are easy to get wrong.
-
-## What You’ll Learn
-
-- Learn how to leverage free, open source tools including Gatsby, React, and
-  GraphQL to build high-performance websites.
-- Deliver an excellent experience to your users by providing only critical
-  assets on load and prefetching assets for subsequent page loads.
-- Implement performance best practices, such as the PRPL pattern, lazy
-  loading assets, and more.
-- Learn to build and deploy blazing fast websites in the fraction of time.
-- Create websites quickly with performance baked in.
-- Deploy your sites for free in minutes with Netlify.
-
-## A Note About Running the Code
-
-We recommend getting the [code running on your computer](#getting-course-code-running-on-your-machine) to build your confidence working with Gatsby. If you get stuck, use the [Course Errata](#course-errata) below to debug, or refer to the the step branches to see what is different between your code and the reference code.
-
-## Course Code Running on CodeSandbox
-
-You can jump into the CodeSandbox for each branch without having to get the code running on your computer. Keep in mind, that if you want to modify the code, you'll need to create a CodeSandbox free account to fork a new sandbox and save it to your CodeSandbox account.
-
-- [Course Starter](https://codesandbox.io/s/github/FrontendMasters/gatsby-intro/tree/master/)
-- [Step 0: Pages & Links](https://codesandbox.io/s/github/FrontendMasters/gatsby-intro/tree/step0/pages-and-links) 
-- [Step 1: Styles](https://codesandbox.io/s/github/FrontendMasters/gatsby-intro/tree/step1/styles)
-- [Step 2: GraphQL & SEO](https://codesandbox.io/s/github/FrontendMasters/gatsby-intro/tree/step2/graphql-and-seo)
-- [Step 3: MDX](https://codesandbox.io/s/github/FrontendMasters/gatsby-intro/tree/step3/mdx)
-- [Step 4: MDX Blog](https://codesandbox.io/s/github/FrontendMasters/gatsby-intro/tree/step4/mdx-blog)
-- [Step 5: Hero Image](https://codesandbox.io/s/github/FrontendMasters/gatsby-intro/tree/step5/hero-image)
-- [Step 6: Blog Images](https://codesandbox.io/s/github/FrontendMasters/gatsby-intro/tree/step6/blog-images)
-- [Step 7: Source Plugins with Instagram Datasource](https://codesandbox.io/s/github/FrontendMasters/gatsby-intro/tree/step7/source-plugins)
-- [Step 8: Analyze Bundle](https://codesandbox.io/s/github/FrontendMasters/gatsby-intro/tree/step8/analyze) (must fork to run npm run analyze)
 
 ## Getting Course Code Running on Your Machine
 
@@ -49,10 +16,6 @@ For windows users, go through the installation instructions for [cross-env](http
 1. `npm run develop`
 1. Open http://localhost:8000/
 
-[Course Slides](https://jlengstorf.github.io/presentations/workshop-gatsby-mdx-blog/#/) (hit the right/down arrow keys to progress through the slides)
-
-Refer to the Course Errata below if you are running into issues.
-
 ### Prerequisites
 
 1. Have a text editor installed, i.e. [VSCode](https://code.visualstudio.com/)
@@ -60,8 +23,6 @@ Refer to the Course Errata below if you are running into issues.
    `npm install -g gatsby-cli`
    
 ## Course Errata
-
-### Video: [Rendering Components in MDX](https://frontendmasters.com/courses/gatsby/rendering-components-in-mdx/) video at 1 minute, 32 seconds where Jason installs the Gatsby MDX plugin.
 
 #### The `gatsby-mdx` plugin was deprecated in favor of `gatsby-plugin-mdx`.
 
