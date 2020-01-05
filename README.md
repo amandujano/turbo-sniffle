@@ -16,7 +16,8 @@ For windows users, go through the installation instructions for [cross-env](http
 1. `npm run develop`
 1. Open http://localhost:8000/
 1. `npm i gatsby-transformer-sharp gatsby-plugin-sharp gatsby-background-image`
-1.- `npm i gatsby-image`
+1. `npm i gatsby-image`
+1. `npm i gatsby-remark-images`
 
 
 
