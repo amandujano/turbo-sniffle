@@ -6,9 +6,9 @@ import BackgroundImage from 'gatsby-background-image';
 
 const ImageBackground = styled(BackgroundImage)`
     background-image: url('/images/background-title.jpg');
-    background-position: top 20% center;
+    background-position: top 60% center;
     background-size: cover;
-    height: 50vh;
+    height: 30vh;
 
     + * {
         margin-top: 0;
@@ -19,9 +19,9 @@ const TextBox = styled ('div')`
     background-image: linear-gradient(to top, #ddbbffdd 2rem, #ddbbff00);
     display: flex;
     flex-direction: column;
-    heigth: 100%;
+    height: 100%;
     justify-content: flex-end;
-    padding: 0 calc((100vw - 550px) / 2 ) 2rem;
+    padding: 0 calc((100vw - 950px) / 2 ) 2rem;
     width: 100%;
 
     h1{
@@ -44,7 +44,7 @@ const Hero = () => {
 
     const { image } = useStaticQuery(graphql`
         query{
-            image: file(relativePath:{ eq: "background-title.jpg"}){
+            image: file(relativePath:{ eq: "andy-kelly.jpg"}){
                 sharp: childImageSharp{
                     fluid {
                         ...GatsbyImageSharpFluid_withWebp
@@ -55,11 +55,11 @@ const Hero = () => {
     `)
 
     return(
-        <ImageBackground Tag="section" fluid={image.sharp.fluid} fadeIn="soft">
+        <ImageBackground Tag="section" fluid={image.sharp.fluid}>
             <TextBox>
-                <h1>Hello From CDMX &hearts;</h1>
+                <h1>Libre Robotics</h1>
                 <p>
-                    Hello mexico <Link to="/about/">Learn about me &rarr;</Link>
+                    Wellcome to Libre-Robotics <Link to="/about/">Learn more &rarr;</Link>
                 </p>
             </TextBox>
         </ImageBackground>

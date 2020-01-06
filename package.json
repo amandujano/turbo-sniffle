@@ -1,8 +1,8 @@
 {
-  "name": "frontendmasters-gatsby",
+  "name": "libre-robotics-gatsby",
   "private": true,
-  "description": "Bare-bones starter for the Gatsby Frontend Masters workshop.",
-  "version": "0.1.0",
+  "description": "libre robotics starter",
+  "version": "0.0.1",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
@@ -37,6 +37,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jlengstorf/frontendmasters-gatsby"
+    "url": "https://github.com/librerobotics/site.git"
   }
 }

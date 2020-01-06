@@ -28,10 +28,10 @@ const Header = () => (
             border-bottom: 1px solid #ddd;
             display: flex;
             justify-content: space-between;
-            padding: 0.5rem calc((100vw - 550px - 0.5rem)/2);
+            padding: 0.5rem calc((100vw - 950px - 0.5rem)/2);
         ` }
         > 
-        <NavLink to="/" fontWeight="bold"> FEM Workshop</NavLink>
+        <NavLink to="/" fontWeight="bold"> Libre Robotics</NavLink>
 
         <nav css = { css`
             margin-top: 0; 
@@ -43,6 +43,15 @@ const Header = () => (
             </NavLink>
             <NavLink to="/about/" activeClassName="current-page">
                 About
+            </NavLink>
+            <NavLink to="/blog/" activeClassName="current-page">
+                Blog
+            </NavLink>
+            <NavLink to="/github" activeClassName="current-page">
+                Github
+            </NavLink>
+            <NavLink to="/donate/" activeClassName="current-page">
+                Donate
             </NavLink>
         </nav>
     </header>
